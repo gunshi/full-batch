@@ -49,5 +49,43 @@ FILE(GLOB SRC_FILES "src/*.cpp")
 add_executable(main ${SRC_FILES} main.cpp)
 
 find_package( OpenCV REQUIRED )
-target_link_libraries( main ${OpenCV_LIBS} ${DLib_LIBS} ${DBoW2_LIBS} )
+
+
+
+
+
+# Find Eigen3
+FIND_PACKAGE(Eigen3 REQUIRED)
+INCLUDE_DIRECTORIES( ${EIGEN3_INCLUDE_DIR})
+
+
+
+
+
+
+
+FIND_PACKAGE(GTSAM REQUIRED)
+IF (GTSAM_FOUND)
+  SET (HAVE_GTSAM 1)
+  INCLUDE_DIRECTORIES(${GTSAM_INCLUDE_DIR})
+  MESSAGE(STATUS "Compiling with gtsam")
+  MESSAGE(STATUS ${GTSAM_LIBS})
+ENDIF()
+
+
+find_library(GTSAM_LIBRARY gtsam HINTS /usr/local/lib)
+MESSAGE(STATUS ${GTSAM_LIBRARY})
+target_link_libraries(main ${GTSAM_LIBRARY})
+
+find_library(BOOST_SYSTEM_LIBRARY boost_system HINTS /usr/lib/x86_64-linux-gnu)
+MESSAGE(STATUS ${BOOST_SYSTEM_LIBRARY})
+target_link_libraries(main ${BOOST_SYSTEM_LIBRARY})
+
+
+
+
+
+
+
+target_link_libraries( main ${OpenCV_LIBS} ${DLib_LIBS} ${DBoW2_LIBS} gtsam)
 
