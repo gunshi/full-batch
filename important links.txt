@@ -1,0 +1,5 @@
+1. counting number of files in a folder -
+
+http://stackoverflow.com/questions/12075864/how-to-get-the-number-of-files-in-the-specific-folder-using-c-or-c-function
+
+
