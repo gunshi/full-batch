@@ -391,7 +391,8 @@ int main()
 	//cout << "size " << myvec.size() << endl;
 	// //cout << "last " << myvec[numImages1-1] << endl;
 
-	
+	string writtenfile="data/merging/traj1_traj2_with_inliers.g2o";
+	batch3d(writtenfile);
 	return 0;
 }
 

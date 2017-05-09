@@ -2,6 +2,44 @@ cmake_minimum_required(VERSION 2.8)
 project( main )
 include(ExternalProject)
 
+add_definitions(-std=c++11)
+add_definitions(-std=gnu++11)
+
+
+# There seems to be an issue with MSVC8
+# see http://eigen.tuxfamily.org/bz/show_bug.cgi?id=83
+if(MSVC90)
+  add_definitions(-DEIGEN_DONT_ALIGN_STATICALLY=1)
+  message(STATUS "Disabling memory alignment for MSVC8")
+endif(MSVC90)
+
+# Detect OS and define macros appropriately
+IF(UNIX)
+  ADD_DEFINITIONS(-DUNIX)
+  MESSAGE(STATUS "Compiling on Unix")
+ENDIF(UNIX)
+
+
+
+
+
+# C++11 support
+IF(NOT MSVC)
+  include(CheckCXXCompilerFlag)
+  CHECK_CXX_COMPILER_FLAG("-std=c++11" COMPILER_SUPPORTS_CXX11)
+  CHECK_CXX_COMPILER_FLAG("-std=c++0x" COMPILER_SUPPORTS_CXX0X)
+  if(COMPILER_SUPPORTS_CXX11)
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+  elseif(COMPILER_SUPPORTS_CXX0X)
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++0x")
+  else()
+    message(STATUS "The compiler ${CMAKE_CXX_COMPILER} has no C++11 support. Please use a different C++ compiler.")
+  endif()
+endif()
+
+
+#Dloop
+
 if(MSVC)
   if(CMAKE_CXX_FLAGS MATCHES "/W[0-4]")
     string(REGEX REPLACE "/W[0-4]" "/W4" CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}")
@@ -11,6 +49,11 @@ if(MSVC)
 elseif(CMAKE_COMPILER_IS_GNUCC OR CMAKE_COMPILER_IS_GNUCXX)
   set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -pedantic")
 endif()
+
+
+
+
+
 
 set(HDRS
   includes/DLoopDetector.h         includes/TemplatedLoopDetector.h)

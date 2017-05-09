@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/gunshi/Downloads/Map-merging-master/main.cpp" "/home/gunshi/Downloads/Map-merging-master/build/CMakeFiles/main.dir/main.cpp.o"
   "/home/gunshi/Downloads/Map-merging-master/src/filter.cpp" "/home/gunshi/Downloads/Map-merging-master/build/CMakeFiles/main.dir/src/filter.cpp.o"
+  "/home/gunshi/Downloads/Map-merging-master/src/gtsambatch.cpp" "/home/gunshi/Downloads/Map-merging-master/build/CMakeFiles/main.dir/src/gtsambatch.cpp.o"
   "/home/gunshi/Downloads/Map-merging-master/src/helperfunctions.cpp" "/home/gunshi/Downloads/Map-merging-master/build/CMakeFiles/main.dir/src/helperfunctions.cpp.o"
   "/home/gunshi/Downloads/Map-merging-master/src/matcher.cpp" "/home/gunshi/Downloads/Map-merging-master/build/CMakeFiles/main.dir/src/matcher.cpp.o"
   "/home/gunshi/Downloads/Map-merging-master/src/matrix.cpp" "/home/gunshi/Downloads/Map-merging-master/build/CMakeFiles/main.dir/src/matrix.cpp.o"
@@ -25,6 +26,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/gunshi/Downloads/DLoopDetector-master/build/dependencies/install/include/DLib/../DVision"
   "/home/gunshi/Downloads/DLoopDetector-master/build/dependencies/install/include/DBoW2"
   "../includes"
+  "/usr/include/eigen3"
+  "/usr/local/lib/cmake/GTSAM/../../../include"
+  "/usr/local/include/gtsam/3rdparty/Eigen"
   "/opt/ros/kinetic/include/opencv-3.1.0-dev/opencv"
   "/opt/ros/kinetic/include/opencv-3.1.0-dev"
   )

@@ -4,7 +4,7 @@
 
 #include <viso_stereo.h>
 #include <vector>
-
+#include "gtsambatch.h"
 #ifndef _HELPER_FINCTIONS_h
 #define _HELPER_FINCTIONS_h
 

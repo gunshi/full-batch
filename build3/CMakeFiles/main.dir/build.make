@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/gunshi/Downloads/Map-merging-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gunshi/Downloads/Map-merging-master/build
+CMAKE_BINARY_DIR = /home/gunshi/Downloads/Map-merging-master/build3
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -59,7 +59,7 @@ include CMakeFiles/main.dir/flags.make
 
 CMakeFiles/main.dir/src/viso.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/viso.cpp.o: ../src/viso.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunshi/Downloads/Map-merging-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/viso.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunshi/Downloads/Map-merging-master/build3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/viso.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/viso.cpp.o -c /home/gunshi/Downloads/Map-merging-master/src/viso.cpp
 
 CMakeFiles/main.dir/src/viso.cpp.i: cmake_force
@@ -83,7 +83,7 @@ CMakeFiles/main.dir/src/viso.cpp.o.provides.build: CMakeFiles/main.dir/src/viso.
 
 CMakeFiles/main.dir/src/gtsambatch.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/gtsambatch.cpp.o: ../src/gtsambatch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunshi/Downloads/Map-merging-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/gtsambatch.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunshi/Downloads/Map-merging-master/build3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/gtsambatch.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/gtsambatch.cpp.o -c /home/gunshi/Downloads/Map-merging-master/src/gtsambatch.cpp
 
 CMakeFiles/main.dir/src/gtsambatch.cpp.i: cmake_force
@@ -107,7 +107,7 @@ CMakeFiles/main.dir/src/gtsambatch.cpp.o.provides.build: CMakeFiles/main.dir/src
 
 CMakeFiles/main.dir/src/viso_stereo.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/viso_stereo.cpp.o: ../src/viso_stereo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunshi/Downloads/Map-merging-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/viso_stereo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunshi/Downloads/Map-merging-master/build3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/viso_stereo.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/viso_stereo.cpp.o -c /home/gunshi/Downloads/Map-merging-master/src/viso_stereo.cpp
 
 CMakeFiles/main.dir/src/viso_stereo.cpp.i: cmake_force
@@ -131,7 +131,7 @@ CMakeFiles/main.dir/src/viso_stereo.cpp.o.provides.build: CMakeFiles/main.dir/sr
 
 CMakeFiles/main.dir/src/matrix.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/matrix.cpp.o: ../src/matrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunshi/Downloads/Map-merging-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/matrix.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunshi/Downloads/Map-merging-master/build3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/matrix.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/matrix.cpp.o -c /home/gunshi/Downloads/Map-merging-master/src/matrix.cpp
 
 CMakeFiles/main.dir/src/matrix.cpp.i: cmake_force
@@ -155,7 +155,7 @@ CMakeFiles/main.dir/src/matrix.cpp.o.provides.build: CMakeFiles/main.dir/src/mat
 
 CMakeFiles/main.dir/src/matcher.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/matcher.cpp.o: ../src/matcher.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunshi/Downloads/Map-merging-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/matcher.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunshi/Downloads/Map-merging-master/build3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/matcher.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/matcher.cpp.o -c /home/gunshi/Downloads/Map-merging-master/src/matcher.cpp
 
 CMakeFiles/main.dir/src/matcher.cpp.i: cmake_force
@@ -179,7 +179,7 @@ CMakeFiles/main.dir/src/matcher.cpp.o.provides.build: CMakeFiles/main.dir/src/ma
 
 CMakeFiles/main.dir/src/reconstruction.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/reconstruction.cpp.o: ../src/reconstruction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunshi/Downloads/Map-merging-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/reconstruction.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunshi/Downloads/Map-merging-master/build3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/reconstruction.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/reconstruction.cpp.o -c /home/gunshi/Downloads/Map-merging-master/src/reconstruction.cpp
 
 CMakeFiles/main.dir/src/reconstruction.cpp.i: cmake_force
@@ -203,7 +203,7 @@ CMakeFiles/main.dir/src/reconstruction.cpp.o.provides.build: CMakeFiles/main.dir
 
 CMakeFiles/main.dir/src/helperfunctions.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/helperfunctions.cpp.o: ../src/helperfunctions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunshi/Downloads/Map-merging-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/helperfunctions.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunshi/Downloads/Map-merging-master/build3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/helperfunctions.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/helperfunctions.cpp.o -c /home/gunshi/Downloads/Map-merging-master/src/helperfunctions.cpp
 
 CMakeFiles/main.dir/src/helperfunctions.cpp.i: cmake_force
@@ -227,7 +227,7 @@ CMakeFiles/main.dir/src/helperfunctions.cpp.o.provides.build: CMakeFiles/main.di
 
 CMakeFiles/main.dir/src/filter.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/filter.cpp.o: ../src/filter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunshi/Downloads/Map-merging-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/src/filter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunshi/Downloads/Map-merging-master/build3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/src/filter.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/filter.cpp.o -c /home/gunshi/Downloads/Map-merging-master/src/filter.cpp
 
 CMakeFiles/main.dir/src/filter.cpp.i: cmake_force
@@ -251,7 +251,7 @@ CMakeFiles/main.dir/src/filter.cpp.o.provides.build: CMakeFiles/main.dir/src/fil
 
 CMakeFiles/main.dir/src/triangle.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/triangle.cpp.o: ../src/triangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunshi/Downloads/Map-merging-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/src/triangle.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunshi/Downloads/Map-merging-master/build3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/src/triangle.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/triangle.cpp.o -c /home/gunshi/Downloads/Map-merging-master/src/triangle.cpp
 
 CMakeFiles/main.dir/src/triangle.cpp.i: cmake_force
@@ -275,7 +275,7 @@ CMakeFiles/main.dir/src/triangle.cpp.o.provides.build: CMakeFiles/main.dir/src/t
 
 CMakeFiles/main.dir/main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunshi/Downloads/Map-merging-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunshi/Downloads/Map-merging-master/build3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main.dir/main.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/main.cpp.o -c /home/gunshi/Downloads/Map-merging-master/main.cpp
 
 CMakeFiles/main.dir/main.cpp.i: cmake_force
@@ -381,7 +381,7 @@ main: /usr/lib/x86_64-linux-gnu/libboost_timer.so
 main: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
 main: /usr/local/lib/libmetis.so
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gunshi/Downloads/Map-merging-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gunshi/Downloads/Map-merging-master/build3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -407,6 +407,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	cd /home/gunshi/Downloads/Map-merging-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gunshi/Downloads/Map-merging-master /home/gunshi/Downloads/Map-merging-master /home/gunshi/Downloads/Map-merging-master/build /home/gunshi/Downloads/Map-merging-master/build /home/gunshi/Downloads/Map-merging-master/build/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gunshi/Downloads/Map-merging-master/build3 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gunshi/Downloads/Map-merging-master /home/gunshi/Downloads/Map-merging-master /home/gunshi/Downloads/Map-merging-master/build3 /home/gunshi/Downloads/Map-merging-master/build3 /home/gunshi/Downloads/Map-merging-master/build3/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/main.dir/depend
 
