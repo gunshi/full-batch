@@ -1,6 +1,0 @@
-/home/gunshi/Downloads/Map-merging-master/build/CMakeFiles/edit_cache.dir
-/home/gunshi/Downloads/Map-merging-master/build/CMakeFiles/rebuild_cache.dir
-/home/gunshi/Downloads/Map-merging-master/build/CMakeFiles/DLib.dir
-/home/gunshi/Downloads/Map-merging-master/build/CMakeFiles/Dependencies.dir
-/home/gunshi/Downloads/Map-merging-master/build/CMakeFiles/DBoW2.dir
-/home/gunshi/Downloads/Map-merging-master/build/CMakeFiles/main.dir
